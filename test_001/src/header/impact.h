@@ -11,7 +11,7 @@ class Impact : public ofBaseApp
 
 public:
 	bool hit, click;//ヒット確認変数と、クリック確認変数
-	float position_x, position_y;//ポジション
+	float position_x, position_y;//マウスポジション
 	float width, height;//大きさ
 	float radius_buffer;//半径
 

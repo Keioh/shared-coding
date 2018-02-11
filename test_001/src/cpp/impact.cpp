@@ -20,7 +20,7 @@ void Impact::update(float moved_x, float moved_y)
 
 //判定される範囲をワイヤーで描写します。(ヒットしたら赤、ヒットなしで青)
 void Impact::draw(int thick)
-{	
+{
 	if(hit == true)//色の変更
 	{
 		if (click == true)//クリックされていたら
@@ -78,7 +78,6 @@ void Impact::mouseMovedUpdate(int x, int y)
 			hit = false;//当たっていなかったらfalse
 		}
 	}
-
 }
 
 //ofApp::mousePressedUpdate(int x, int y, int button)の中に記述する。マウスがヒットしているときにボタンを押したときの処理。
